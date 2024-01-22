@@ -23,7 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		958505A32B5EB3820057A9C8 /* FlowStacks */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FlowStacks; path = ../../../Downloads/FlowStacks; sourceTree = "<group>"; };
 		95FA0D7B2B595E6B00203D87 /* FlowStacksMemoryLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowStacksMemoryLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FA0D7E2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowStacksMemoryLeakApp.swift; sourceTree = "<group>"; };
 		95FA0D822B595E6C00203D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,18 +50,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		958505A22B5EB3820057A9C8 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				958505A32B5EB3820057A9C8 /* FlowStacks */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 		95FA0D722B595E6B00203D87 = {
 			isa = PBXGroup;
 			children = (
-				958505A22B5EB3820057A9C8 /* Packages */,
 				95FA0D7D2B595E6B00203D87 /* FlowStacksMemoryLeak */,
 				95FA0D7C2B595E6B00203D87 /* Products */,
 			);
