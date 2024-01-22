@@ -1,6 +1,6 @@
 ## Purpose
 
-This is a test project to show a retain cycle caused by the `FlowNavigator` environment object of [FlowStacks](https://github.com/johnpatrickmorgan/FlowStacks).
+This is a test project to show a memory leak caused by the `FlowNavigator` environment object of [FlowStacks](https://github.com/johnpatrickmorgan/FlowStacks).
 
 ## Setup
 
@@ -8,7 +8,7 @@ The app has the latest version of FlowStacks 0.3.8 added as a local dependecy.
 
 Simply open the project in Xcode and run the app.
 
-## How to see the retain cycle?
+## How to see the memory leak?
 
 1. Run the app.
 2. After a few seconds a loading screen will be replaced by a simple screen with a button.
