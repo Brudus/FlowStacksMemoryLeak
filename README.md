@@ -4,7 +4,7 @@ This is a test project to show a memory leak caused by the `FlowNavigator` envir
 
 ## Setup
 
-The app has the latest version of FlowStacks 0.3.8 added as a local dependecy. 
+The app has the latest version of FlowStacks 0.3.8 added via SPM. 
 
 Simply open the project in Xcode and run the app.
 
@@ -37,5 +37,5 @@ __Actual behavior:__\
 At least one instance (the first one in this example project) is kept around and would also still cause subscriptions to fire.
 
 __What fixes this issue?__\
-Commenting out this line `.environmentObject(FlowNavigator($routes))` in Router.swift of FlowStacks resolves the issue. Even though, this is not a solution obviously for the framework.
+Commenting out this line `.environmentObject(FlowNavigator($routes))` in Router.swift of FlowStacks resolves the issue. Even though, this is not a solution, obviously, for the framework.
 
