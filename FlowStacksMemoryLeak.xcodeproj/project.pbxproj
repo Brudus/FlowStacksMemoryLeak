@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		958505A32B5EB3820057A9C8 /* FlowStacks */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FlowStacks; path = ../../../Downloads/FlowStacks; sourceTree = "<group>"; };
 		95FA0D7B2B595E6B00203D87 /* FlowStacksMemoryLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowStacksMemoryLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FA0D7E2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowStacksMemoryLeakApp.swift; sourceTree = "<group>"; };
 		95FA0D822B595E6C00203D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		95FA0D9E2B5961F500203D87 /* TabBarCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinatorView.swift; sourceTree = "<group>"; };
 		95FA0DA02B59678100203D87 /* CoordinatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorModel.swift; sourceTree = "<group>"; };
 		95FA0DA22B5968D900203D87 /* RoutesPublishingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesPublishingObject.swift; sourceTree = "<group>"; };
-		95FA0DAE2B59DAC200203D87 /* FlowStacks */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FlowStacks; path = ../../../Downloads/FlowStacks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +51,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		958505A22B5EB3820057A9C8 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				958505A32B5EB3820057A9C8 /* FlowStacks */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		95FA0D722B595E6B00203D87 = {
 			isa = PBXGroup;
 			children = (
-				95FA0DAD2B59DAC200203D87 /* Packages */,
+				958505A22B5EB3820057A9C8 /* Packages */,
 				95FA0D7D2B595E6B00203D87 /* FlowStacksMemoryLeak */,
 				95FA0D7C2B595E6B00203D87 /* Products */,
 			);
@@ -117,14 +125,6 @@
 				95FA0D9E2B5961F500203D87 /* TabBarCoordinatorView.swift */,
 			);
 			path = TabBar;
-			sourceTree = "<group>";
-		};
-		95FA0DAD2B59DAC200203D87 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				95FA0DAE2B59DAC200203D87 /* FlowStacks */,
-			);
-			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
