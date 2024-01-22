@@ -15,8 +15,6 @@ open class CoordinatorModel<Screen>: RoutesPublishingObject {
     @Published public var routes: Routes<Screen>
     public var cancellables = Set<AnyCancellable>()
 
-    private var oldRoutes: Routes<Screen>?
-
     public init(initialRoutes: Routes<Screen> = []) {
         routes = initialRoutes
         logRouteChanges()
@@ -33,15 +31,8 @@ open class CoordinatorModel<Screen>: RoutesPublishingObject {
     private func logRouteChanges() {
         $routes
             .handleEvents(
-                receiveOutput: { [weak self] newRoutes in
-                    guard let self else {
-                        return
-                    }
-                    self.oldRoutes = newRoutes
-
-                    if let lastRoute = newRoutes.last?.screen {
-                        LastRoute.value = String(reflecting: lastRoute)
-                    }
+                receiveOutput: { newRoutes in
+                    print("### Subscription triggered")
                 },
                 receiveRequest: { [weak self] _ in
                     guard let self else {

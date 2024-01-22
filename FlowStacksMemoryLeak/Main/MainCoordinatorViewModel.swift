@@ -11,7 +11,6 @@ import SwiftUI
 final class MainCoordinatorViewModel: CoordinatorModel<MainCoordinatorScreen> {
 
     init() {
-        print("### Init gets called")
         super.init(initialRoutes: [])
         setSplashAsRoot()
     }

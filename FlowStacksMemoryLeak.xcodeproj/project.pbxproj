@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9585059E2B5E6C9B0057A9C8 /* LastRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585059D2B5E6C9B0057A9C8 /* LastRoute.swift */; };
 		95FA0D7F2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D7E2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift */; };
 		95FA0D832B595E6C00203D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FA0D822B595E6C00203D87 /* Assets.xcassets */; };
 		95FA0D862B595E6C00203D87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FA0D852B595E6C00203D87 /* Preview Assets.xcassets */; };
@@ -24,7 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9585059D2B5E6C9B0057A9C8 /* LastRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastRoute.swift; sourceTree = "<group>"; };
 		95FA0D7B2B595E6B00203D87 /* FlowStacksMemoryLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowStacksMemoryLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FA0D7E2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowStacksMemoryLeakApp.swift; sourceTree = "<group>"; };
 		95FA0D822B595E6C00203D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				95FA0D842B595E6C00203D87 /* Preview Content */,
 				95FA0DA02B59678100203D87 /* CoordinatorModel.swift */,
 				95FA0DA22B5968D900203D87 /* RoutesPublishingObject.swift */,
-				9585059D2B5E6C9B0057A9C8 /* LastRoute.swift */,
 			);
 			path = FlowStacksMemoryLeak;
 			sourceTree = "<group>";
@@ -215,7 +212,6 @@
 				95FA0D982B595F3A00203D87 /* SplashViewModel.swift in Sources */,
 				95FA0DA12B59678100203D87 /* CoordinatorModel.swift in Sources */,
 				95FA0D952B595EFC00203D87 /* MainCoordinatorScreen.swift in Sources */,
-				9585059E2B5E6C9B0057A9C8 /* LastRoute.swift in Sources */,
 				95FA0D7F2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
