@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9585059E2B5E6C9B0057A9C8 /* LastRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585059D2B5E6C9B0057A9C8 /* LastRoute.swift */; };
 		95FA0D7F2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D7E2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift */; };
-		95FA0D812B595E6B00203D87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D802B595E6B00203D87 /* ContentView.swift */; };
 		95FA0D832B595E6C00203D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FA0D822B595E6C00203D87 /* Assets.xcassets */; };
 		95FA0D862B595E6C00203D87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FA0D852B595E6C00203D87 /* Preview Assets.xcassets */; };
+		95FA0D912B595EDA00203D87 /* MainCoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D902B595EDA00203D87 /* MainCoordinatorViewModel.swift */; };
+		95FA0D932B595EE600203D87 /* MainCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D922B595EE600203D87 /* MainCoordinatorView.swift */; };
+		95FA0D952B595EFC00203D87 /* MainCoordinatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D942B595EFC00203D87 /* MainCoordinatorScreen.swift */; };
+		95FA0D982B595F3A00203D87 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D972B595F3A00203D87 /* SplashViewModel.swift */; };
+		95FA0D9A2B595F4700203D87 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D992B595F4700203D87 /* SplashView.swift */; };
+		95FA0D9D2B59616B00203D87 /* TabBarCoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D9C2B59616B00203D87 /* TabBarCoordinatorViewModel.swift */; };
+		95FA0D9F2B5961F500203D87 /* TabBarCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D9E2B5961F500203D87 /* TabBarCoordinatorView.swift */; };
+		95FA0DA12B59678100203D87 /* CoordinatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0DA02B59678100203D87 /* CoordinatorModel.swift */; };
+		95FA0DA32B5968D900203D87 /* RoutesPublishingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0DA22B5968D900203D87 /* RoutesPublishingObject.swift */; };
+		95FA0DAA2B59C15E00203D87 /* FlowStacks in Frameworks */ = {isa = PBXBuildFile; productRef = 95FA0DA92B59C15E00203D87 /* FlowStacks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9585059D2B5E6C9B0057A9C8 /* LastRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastRoute.swift; sourceTree = "<group>"; };
 		95FA0D7B2B595E6B00203D87 /* FlowStacksMemoryLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowStacksMemoryLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FA0D7E2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowStacksMemoryLeakApp.swift; sourceTree = "<group>"; };
-		95FA0D802B595E6B00203D87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		95FA0D822B595E6C00203D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95FA0D852B595E6C00203D87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95FA0D902B595EDA00203D87 /* MainCoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorViewModel.swift; sourceTree = "<group>"; };
+		95FA0D922B595EE600203D87 /* MainCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorView.swift; sourceTree = "<group>"; };
+		95FA0D942B595EFC00203D87 /* MainCoordinatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorScreen.swift; sourceTree = "<group>"; };
+		95FA0D972B595F3A00203D87 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		95FA0D992B595F4700203D87 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		95FA0D9C2B59616B00203D87 /* TabBarCoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinatorViewModel.swift; sourceTree = "<group>"; };
+		95FA0D9E2B5961F500203D87 /* TabBarCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinatorView.swift; sourceTree = "<group>"; };
+		95FA0DA02B59678100203D87 /* CoordinatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorModel.swift; sourceTree = "<group>"; };
+		95FA0DA22B5968D900203D87 /* RoutesPublishingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesPublishingObject.swift; sourceTree = "<group>"; };
+		95FA0DAE2B59DAC200203D87 /* FlowStacks */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FlowStacks; path = ../../../Downloads/FlowStacks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FA0DAA2B59C15E00203D87 /* FlowStacks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +56,7 @@
 		95FA0D722B595E6B00203D87 = {
 			isa = PBXGroup;
 			children = (
+				95FA0DAD2B59DAC200203D87 /* Packages */,
 				95FA0D7D2B595E6B00203D87 /* FlowStacksMemoryLeak */,
 				95FA0D7C2B595E6B00203D87 /* Products */,
 			);
@@ -51,10 +73,15 @@
 		95FA0D7D2B595E6B00203D87 /* FlowStacksMemoryLeak */ = {
 			isa = PBXGroup;
 			children = (
+				95FA0D9B2B59615800203D87 /* TabBar */,
+				95FA0D962B595F2D00203D87 /* Splash */,
+				95FA0D8F2B595ECF00203D87 /* Main */,
 				95FA0D7E2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift */,
-				95FA0D802B595E6B00203D87 /* ContentView.swift */,
 				95FA0D822B595E6C00203D87 /* Assets.xcassets */,
 				95FA0D842B595E6C00203D87 /* Preview Content */,
+				95FA0DA02B59678100203D87 /* CoordinatorModel.swift */,
+				95FA0DA22B5968D900203D87 /* RoutesPublishingObject.swift */,
+				9585059D2B5E6C9B0057A9C8 /* LastRoute.swift */,
 			);
 			path = FlowStacksMemoryLeak;
 			sourceTree = "<group>";
@@ -65,6 +92,42 @@
 				95FA0D852B595E6C00203D87 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95FA0D8F2B595ECF00203D87 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				95FA0D902B595EDA00203D87 /* MainCoordinatorViewModel.swift */,
+				95FA0D922B595EE600203D87 /* MainCoordinatorView.swift */,
+				95FA0D942B595EFC00203D87 /* MainCoordinatorScreen.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		95FA0D962B595F2D00203D87 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				95FA0D972B595F3A00203D87 /* SplashViewModel.swift */,
+				95FA0D992B595F4700203D87 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		95FA0D9B2B59615800203D87 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				95FA0D9C2B59616B00203D87 /* TabBarCoordinatorViewModel.swift */,
+				95FA0D9E2B5961F500203D87 /* TabBarCoordinatorView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		95FA0DAD2B59DAC200203D87 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				95FA0DAE2B59DAC200203D87 /* FlowStacks */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +146,9 @@
 			dependencies = (
 			);
 			name = FlowStacksMemoryLeak;
+			packageProductDependencies = (
+				95FA0DA92B59C15E00203D87 /* FlowStacks */,
+			);
 			productName = FlowStacksMemoryLeak;
 			productReference = 95FA0D7B2B595E6B00203D87 /* FlowStacksMemoryLeak.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +177,9 @@
 				Base,
 			);
 			mainGroup = 95FA0D722B595E6B00203D87;
+			packageReferences = (
+				95FA0DA82B59C15E00203D87 /* XCRemoteSwiftPackageReference "FlowStacks" */,
+			);
 			productRefGroup = 95FA0D7C2B595E6B00203D87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +206,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95FA0D812B595E6B00203D87 /* ContentView.swift in Sources */,
+				95FA0D9F2B5961F500203D87 /* TabBarCoordinatorView.swift in Sources */,
+				95FA0D932B595EE600203D87 /* MainCoordinatorView.swift in Sources */,
+				95FA0D912B595EDA00203D87 /* MainCoordinatorViewModel.swift in Sources */,
+				95FA0D9D2B59616B00203D87 /* TabBarCoordinatorViewModel.swift in Sources */,
+				95FA0D9A2B595F4700203D87 /* SplashView.swift in Sources */,
+				95FA0DA32B5968D900203D87 /* RoutesPublishingObject.swift in Sources */,
+				95FA0D982B595F3A00203D87 /* SplashViewModel.swift in Sources */,
+				95FA0DA12B59678100203D87 /* CoordinatorModel.swift in Sources */,
+				95FA0D952B595EFC00203D87 /* MainCoordinatorScreen.swift in Sources */,
+				9585059E2B5E6C9B0057A9C8 /* LastRoute.swift in Sources */,
 				95FA0D7F2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +417,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		95FA0DA82B59C15E00203D87 /* XCRemoteSwiftPackageReference "FlowStacks" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnpatrickmorgan/FlowStacks";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		95FA0DA92B59C15E00203D87 /* FlowStacks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95FA0DA82B59C15E00203D87 /* XCRemoteSwiftPackageReference "FlowStacks" */;
+			productName = FlowStacks;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 95FA0D732B595E6B00203D87 /* Project object */;
 }

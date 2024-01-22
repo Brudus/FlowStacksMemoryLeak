@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct FlowStacksMemoryLeakApp: App {
+
+    @StateObject private var mainCoordinatorViewModel = MainCoordinatorViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainCoordinatorView(viewModel: mainCoordinatorViewModel)
         }
     }
 }
