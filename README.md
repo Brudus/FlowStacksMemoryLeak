@@ -24,10 +24,10 @@ All subscriptions are kept around which also causes too many requests to be made
 
 __Example logs:__
 ```
-### Creates instance ObjectIdentifier(0x0000600000229d60)
-### Creates instance ObjectIdentifier(0x00006000002780a0)
-### Deinit called ObjectIdentifier(0x00006000002780a0)
-### Creates instance ObjectIdentifier(0x00006000002780a0)
+### Creates instance ObjectIdentifier(0x0000600000221b40)
+### Creates instance ObjectIdentifier(0x0000600000233280)
+### Deinit called ObjectIdentifier(0x0000600000233280)
+### Creates instance ObjectIdentifier(0x000060000021fe20)
 ```
 
 __Expected behavior:__\
