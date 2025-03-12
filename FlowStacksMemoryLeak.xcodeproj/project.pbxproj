@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		958F2D2C2D6DDBA90053D167 /* MainRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F2D2B2D6DDBA90053D167 /* MainRoute.swift */; };
+		958F2D2F2D6DDBD70053D167 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F2D2E2D6DDBD70053D167 /* ContentViewModel.swift */; };
+		958F2D332D6DDCB30053D167 /* ContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958F2D322D6DDCB30053D167 /* ContentScreen.swift */; };
 		95FA0D7F2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D7E2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift */; };
 		95FA0D832B595E6C00203D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FA0D822B595E6C00203D87 /* Assets.xcassets */; };
 		95FA0D862B595E6C00203D87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95FA0D852B595E6C00203D87 /* Preview Assets.xcassets */; };
 		95FA0D912B595EDA00203D87 /* MainCoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D902B595EDA00203D87 /* MainCoordinatorViewModel.swift */; };
 		95FA0D932B595EE600203D87 /* MainCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D922B595EE600203D87 /* MainCoordinatorView.swift */; };
-		95FA0D952B595EFC00203D87 /* MainCoordinatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D942B595EFC00203D87 /* MainCoordinatorScreen.swift */; };
 		95FA0D982B595F3A00203D87 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D972B595F3A00203D87 /* SplashViewModel.swift */; };
 		95FA0D9A2B595F4700203D87 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D992B595F4700203D87 /* SplashView.swift */; };
 		95FA0D9D2B59616B00203D87 /* TabBarCoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA0D9C2B59616B00203D87 /* TabBarCoordinatorViewModel.swift */; };
@@ -23,13 +25,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		958F2D2B2D6DDBA90053D167 /* MainRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRoute.swift; sourceTree = "<group>"; };
+		958F2D2E2D6DDBD70053D167 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		958F2D322D6DDCB30053D167 /* ContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentScreen.swift; sourceTree = "<group>"; };
 		95FA0D7B2B595E6B00203D87 /* FlowStacksMemoryLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowStacksMemoryLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FA0D7E2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowStacksMemoryLeakApp.swift; sourceTree = "<group>"; };
 		95FA0D822B595E6C00203D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95FA0D852B595E6C00203D87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95FA0D902B595EDA00203D87 /* MainCoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorViewModel.swift; sourceTree = "<group>"; };
 		95FA0D922B595EE600203D87 /* MainCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorView.swift; sourceTree = "<group>"; };
-		95FA0D942B595EFC00203D87 /* MainCoordinatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorScreen.swift; sourceTree = "<group>"; };
 		95FA0D972B595F3A00203D87 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		95FA0D992B595F4700203D87 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		95FA0D9C2B59616B00203D87 /* TabBarCoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinatorViewModel.swift; sourceTree = "<group>"; };
@@ -50,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		958F2D2D2D6DDBBB0053D167 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				958F2D2E2D6DDBD70053D167 /* ContentViewModel.swift */,
+				958F2D322D6DDCB30053D167 /* ContentScreen.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
 		95FA0D722B595E6B00203D87 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +82,7 @@
 		95FA0D7D2B595E6B00203D87 /* FlowStacksMemoryLeak */ = {
 			isa = PBXGroup;
 			children = (
+				958F2D2D2D6DDBBB0053D167 /* Content */,
 				95FA0D9B2B59615800203D87 /* TabBar */,
 				95FA0D962B595F2D00203D87 /* Splash */,
 				95FA0D8F2B595ECF00203D87 /* Main */,
@@ -94,7 +108,7 @@
 			children = (
 				95FA0D902B595EDA00203D87 /* MainCoordinatorViewModel.swift */,
 				95FA0D922B595EE600203D87 /* MainCoordinatorView.swift */,
-				95FA0D942B595EFC00203D87 /* MainCoordinatorScreen.swift */,
+				958F2D2B2D6DDBA90053D167 /* MainRoute.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -201,8 +215,10 @@
 				95FA0DA32B5968D900203D87 /* RoutesPublishingObject.swift in Sources */,
 				95FA0D982B595F3A00203D87 /* SplashViewModel.swift in Sources */,
 				95FA0DA12B59678100203D87 /* CoordinatorModel.swift in Sources */,
-				95FA0D952B595EFC00203D87 /* MainCoordinatorScreen.swift in Sources */,
+				958F2D2F2D6DDBD70053D167 /* ContentViewModel.swift in Sources */,
+				958F2D332D6DDCB30053D167 /* ContentScreen.swift in Sources */,
 				95FA0D7F2B595E6B00203D87 /* FlowStacksMemoryLeakApp.swift in Sources */,
+				958F2D2C2D6DDBA90053D167 /* MainRoute.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

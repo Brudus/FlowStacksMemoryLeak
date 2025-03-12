@@ -12,8 +12,9 @@ import FlowStacks
 open class CoordinatorModel<Screen>: RoutesPublishingObject {
     public typealias State = Routes<Screen>
 
-    @Published public var routes: Routes<Screen>
+    @Published public var routes: [Route<Screen>]
     public var cancellables = Set<AnyCancellable>()
+    public let identifier = UUID()
 
     public init(initialRoutes: Routes<Screen> = []) {
         routes = initialRoutes
@@ -24,8 +25,8 @@ open class CoordinatorModel<Screen>: RoutesPublishingObject {
         // optionally called by subclasses
     }
 
-    public func setRoot(_ screen: Screen, embedInNavigationView: Bool = false) {
-        routes = [.root(screen, embedInNavigationView: embedInNavigationView)]
+    public func setRoutes(to newRoutes: Routes<Screen>) {
+        routes = newRoutes
     }
 
     private func logRouteChanges() {
@@ -43,5 +44,21 @@ open class CoordinatorModel<Screen>: RoutesPublishingObject {
             )
             .sink(receiveValue: { _ in })
             .store(in: &cancellables)
+    }
+}
+
+// MARK: Hashable
+
+extension CoordinatorModel: Hashable {
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(identifier)
+    }
+}
+
+// MARK: Equatable
+
+extension CoordinatorModel: Equatable {
+    public static func == (lhs: CoordinatorModel, rhs: CoordinatorModel) -> Bool {
+        lhs.identifier == rhs.identifier
     }
 }

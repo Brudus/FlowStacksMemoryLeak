@@ -1,24 +1,17 @@
 //
-//  TabBarCoordinatorView.swift
+//  ContentScreen.swift
 //  FlowStacksMemoryLeak
 //
-//  Created by Manuel Schulze on 18.01.24.
+//  Created by Manuel Djirlic on 25.02.25.
 //
 
 import SwiftUI
 
-struct TabBarCoordinatorView: View {
-
-    var viewModel: TabBarCoordinatorViewModel
+struct ContentScreen: View {
+    let viewModel: ContentViewModel
 
     var body: some View {
-        NavigationView {
-            VStack {
-                Text("TabBar")
-                Button("Reset") {
-                    viewModel.onRestartTapped()
-                }
-            }
+        Text(viewModel.text)
             .toolbar {
                 ToolbarItemGroup(placement: .topBarTrailing) {
                     Button(
@@ -31,7 +24,5 @@ struct TabBarCoordinatorView: View {
                     )
                 }
             }
-        }
-        .navigationViewStyle(.stack)
     }
 }
